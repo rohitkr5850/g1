@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout</title>
+  <style>
+    /* Container styles */
+    .container {
+      display: flex; /* Enables Flexbox */
+      justify-content: center; /* Centers items horizontally */
+      align-items: center; /* Centers items vertically */
+      height: 100vh; /* Full height of the viewport */
+      background-color: #f0f0f0; /* Light gray background for visibility */
+    }
+
+    /* Item styles */
+    .item {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      background-color: #4caf50; /* Green background */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+</body>
+</html>
